@@ -1,0 +1,50 @@
+{
+    "Basic Lessons":
+    [
+        {"id":"2112202","name":"Math1","Credit":"3","pre-requisite":"","co-requisite":""},
+        {"id":"2112203","name":"Math2","Credit":"3","pre-requisite":"2112202","co-requisite":""},
+        {"id":"2110009","name":"Differential Equations","Credit":"3","pre-requisite":"2112202","co-requisite":""},
+        {"id":"2112205","name":"Physics1","Credit":"3","pre-requisite":"","co-requisite":""},
+        {"id":"2112206","name":"Physics2","Credit":"3","pre-requisite":"2112205","co-requisite":""},
+        {"id":"2112207","name":"Physics3","Credit":"3","pre-requisite":"2112205","co-requisite":""},
+        {"id":"2112208","name":"Physics4","Credit":"3","pre-requisite":"2112206","co-requisite":""},
+        {"id":"2112209","name":"Physics Lab1","Credit":"1","pre-requisite":"","co-requisite":"2112205"},
+        {"id":"2112210","name":"Physics Lab2","Credit":"1","pre-requisite":"","co-requisite":"2112206"},
+        {"id":"2112211","name":"Physics Lab3","Credit":"1","pre-requisite":"","co-requisite":"2112207"},
+        {"id":"2112212","name":"Physics Lab4","Credit":"1","pre-requisite":"","co-requisite":"2112208"},
+        {"id":"2112120","name":"Chemistry","Credit":"3","pre-requisite":"","co-requisite":""},
+        {"id":"2112121","name":"Chemistry Lab","Credit":"1","pre-requisite":"","co-requisite":"2112220"},
+        {"id":"2112305","name":"Programming","Credit":"3","pre-requisite":"","co-requisite":""},
+        {"id":"2112214","name":"Machinery Workshop","Credit":"1","pre-requisite":"","co-requisite":""},
+        {"id":"2112215","name":"Electrotechnical Workshop","Credit":"1","pre-requisite":"","co-requisite":""}
+    ],
+
+    "Condensed Matter":
+    [
+        {"id":"2112241","name":"Crystallography","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112242","name":"Thin Layers","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112243","name":"Semiconductor Components","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112244","name":"Solid State2","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112245","name":"Solid State Lab2","Credit":"2","pre-requisite":"","co-requisite":"2112244"},
+        {"id":"2112246","name":"NanoPhysics","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112247","name":"Superconductivity","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112248","name":"Physical property","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112249","name":"Magnetic Materials","Credit":"3","pre-requisite":"2112226","co-requisite":""},
+        {"id":"2112250","name":"Ceramics Physics","Credit":"3","pre-requisite":"2112226","co-requisite":""}
+
+    ],
+    
+    "Atomic Molecular Physics":
+    [
+        {"id":"2112232","name":"Atom-Molecule Physics","Credit":"3","pre-requisite":"2112225","co-requisite":""},
+        {"id":"2112233","name":"Laser","Credit":"3","pre-requisite":["2112225","2112223","2112228"],"co-requisite":""},
+        {"id":"2112234","name":"Laser Uses","Credit":"3","pre-requisite":"2112233","co-requisite":""},
+        {"id":"2112235","name":"Laser Lab","Credit":"2","pre-requisite":"","co-requisite":"2112233"},
+        {"id":"2112236","name":"Spectroscopy","Credit":"3","pre-requisite":"2112225","co-requisite":""},
+        {"id":"2112237","name":"Plasma","Credit":"3","pre-requisite":"2112223","co-requisite":""},
+        {"id":"2112238","name":"Optical Systems Design","Credit":"3","pre-requisite":"2112228","co-requisite":""},
+        {"id":"2112239","name":"Optoelectronics","Credit":"3","pre-requisite":["2112226","2112228"],"co-requisite":""},
+        {"id":"2112240","name":"Optical Detectors","Credit":"3","pre-requisite":"2112228","co-requisite":""}
+
+    ]
+}
